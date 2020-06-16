@@ -1,0 +1,65 @@
+# Kodi Media Center language file
+# Addon Name: ran
+# Addon id: plugin.video.ran_de
+# Addon Provider: PUR3, L0RE, Linkinsoldier
+
+msgid ""
+msgstr ""
+
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30100"
+msgid "General"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Prefered video quality"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Couldn't play video!"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Couldn't list videos!"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Now live"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Livestreams"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Latest videos"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Soccer"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Tennis"
+msgstr ""
+
+msgctxt "#30109"
+msgid "NFL"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Boxing"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Golf"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Type Live Streams"
+msgstr ""

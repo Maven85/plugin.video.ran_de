@@ -1,0 +1,25 @@
+2.3.9
+- added assets tag in addon.xml
+2.3.8
+- changed version of the Python ABI
+2.3.7
+- fixed playing live streams
+2.3.6
+- fixed live streams which need a license key
+2.3.5
+- Python 3 compability
+2.3.4
+- fixed displaying icons/thumbs for kodi matrix
+2.3.3
+- fixed live streams that caused an error (status code 403)
+2.3.2
+- fixed audio for live streams
+2.3.1:
+- new Videos in Category Handball added
+- new Videos in Category Darts added
+- new Videos in Category eSports added
+- new Videos in Category DTM added
+- removed golf, since it no longer exists in app and golf.json is empty
+2.3.0:
+- enhanced gui to filter for "ReLive" or "Re-Live" only (to now see results often containted in (other) video titles)
+- small enhancements
