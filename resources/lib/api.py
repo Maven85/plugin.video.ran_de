@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+
+from __future__ import unicode_literals
 import time
 import datetime
 import xbmc, xbmcgui, xbmcplugin, sys
@@ -12,6 +14,8 @@ except:
 
 RAN_API_BASE = 'https://middleware.7tv.de'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+bv = xbmc.getInfoLabel('System.BuildVersion')
+kodiVersion = int(bv.split('.')[0])
 
 
 def get_playlist_url(m3u8_url, height=720):
@@ -205,7 +209,7 @@ def get_video_url(resource, height):
         listitem = xbmcgui.ListItem(path='{0}|{1}'.format(data_drm.get('url'), USER_AGENT))
         listitem.setProperty('inputstream.adaptive.license_type', 'com.widevine.alpha')
         listitem.setProperty('inputstream.adaptive.manifest_type', 'mpd')
-        listitem.setProperty('inputstreamaddon', 'inputstream.adaptive')
+        listitem.setProperty('inputstreamaddon' if kodiVersion <= 18 else 'inputstream', 'inputstream.adaptive')
         listitem.setProperty('inputstream.adaptive.manifest_update_parameter', 'full')
 
         if data_drm.get('drm') and data_drm.get('drm').get('licenseAcquisitionUrl') and data_drm.get('drm').get('token'):
