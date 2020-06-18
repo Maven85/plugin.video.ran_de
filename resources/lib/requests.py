@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+from __future__ import unicode_literals
 import gzip
 import json as real_json
 from kodi_six.utils import py2_encode, py2_decode
