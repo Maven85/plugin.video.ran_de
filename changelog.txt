@@ -1,3 +1,5 @@
+2.3.10
+- changed property key for inputstream addons and Kodi 19
 2.3.9
 - added assets tag in addon.xml
 2.3.8
