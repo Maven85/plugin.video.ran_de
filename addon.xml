@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ran_de" name="ran" version="2.3.10+matrix.1" provider-name="PUR3, L0RE, Linkinsoldier, Maven">
+<addon id="plugin.video.ran_de" name="ran" version="2.3.11+matrix.1" provider-name="PUR3, L0RE, Linkinsoldier, Maven">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.kodi-six" version="0.1.3.1"/>
