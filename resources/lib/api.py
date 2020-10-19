@@ -210,7 +210,6 @@ def get_video_url(resource, height):
         listitem.setProperty('inputstream.adaptive.license_type', 'com.widevine.alpha')
         listitem.setProperty('inputstream.adaptive.manifest_type', 'mpd')
         listitem.setProperty('inputstreamaddon' if kodiVersion <= 18 else 'inputstream', 'inputstream.adaptive')
-        listitem.setProperty('inputstream.adaptive.manifest_update_parameter', 'full')
 
         if data_drm.get('drm') and data_drm.get('drm').get('licenseAcquisitionUrl') and data_drm.get('drm').get('token'):
             drm_lic = data_drm.get('drm').get('licenseAcquisitionUrl')
