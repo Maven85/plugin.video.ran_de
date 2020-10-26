@@ -1,3 +1,5 @@
+2.3.12
+- bugfix string condition for relive section
 2.3.11
 - improved string condition for relive section
 - tried to fix video sync problem
